@@ -68,7 +68,7 @@ return (
 
       <section className='all-movies'>
         <h2 className=' mt-[40px]'>all movies</h2>
-        {git initisLoading?(
+        {isLoading?(
           <Spinner />
         ):errorMessage?(
           <p className='text-white uppercase'>{errorMessage}</p>
